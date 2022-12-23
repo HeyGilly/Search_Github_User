@@ -30,7 +30,11 @@ The languages used to create this application:
 
 ## Pathway
 
-* [ ] Navigation
+* [X] Google Fonts
+* [X] Navigation
+* [X] Main Header
+* [ ] Description
+* [ ] Search Bar
       
 
 
