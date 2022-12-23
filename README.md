@@ -33,8 +33,8 @@ The languages used to create this application:
 * [X] Google Fonts
 * [X] Navigation
 * [X] Main Header
-* [ ] Description
-* [ ] Search Bar
+* [X] Description
+* [X] Search Bar
       
 
 
