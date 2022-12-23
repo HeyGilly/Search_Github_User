@@ -87,7 +87,39 @@ form{
 }
 
 
+/*Main Section*/
+main{
+    border: 2px solid darkslategrey;
+    padding: 2em 0;
+}
+#userHeader{
+}
+h2{
+    text-align: center;
+    padding-bottom: 6px;
+}
+#userBio{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#userImage{
+    height: 220px;
+    border-radius: 24px;
+    margin: 0 auto;
+    display: block;
+    padding: 12px 0;
+}
+.followersSection{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+#userInformation{
+    padding-top: 12px;
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 
