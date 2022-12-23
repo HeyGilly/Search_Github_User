@@ -1,1 +1,21 @@
 *{margin:0;padding:0;box-sizing:border-box;}
+
+/*Navigation*/
+nav{
+    background-color: azure;
+    padding: 1em 0;
+    text-align: center;
+}
+/*Navigation Anchor*/
+nav a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+/*Main Header*/
+h2{
+    font-size: 62px;
+    text-align: center;
+    color:gold;
+    padding: 1em 0 0 0;
+}
