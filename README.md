@@ -35,6 +35,8 @@ The languages used to create this application:
 * [X] Main Header
 * [X] Description
 * [X] Search Bar
+  * [X] Animation
+* [ ] Add fake user to see how it will look when information is pulled
       
 
 
