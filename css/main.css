@@ -121,12 +121,30 @@ h2{
     margin: 0 auto;
 }
 
+#reachMeContainer{
+    text-align: center;
+    padding-top: 12px;
+}
+#anchorReachMe{
+    text-decoration: none;
+    color: white;
+}
 
+#anchorReachMe p{
+    transition: transform 1s;
+}
+
+#anchorReachMe p:hover{
+    transform: scale(1.2);
+}
 
 
 /*When the screen is larger than 600px*/
 @media only screen and (min-width: 600px) {
-
+main{
+    width: 480px;
+    margin: 0 auto;
+}
     /*Main Header Container*/
     header{
         text-align: center;
