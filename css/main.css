@@ -89,7 +89,10 @@ form{
 
 /*Main Section*/
 main{
-    border: 2px solid darkslategrey;
+    margin: 2em 25px;
+    border: 5px solid whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px black;
     padding: 2em 0;
 }
 #userHeader{
@@ -138,6 +141,10 @@ h2{
     transform: scale(1.2);
 }
 
+#gitHubAnchor{
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 /*When the screen is larger than 600px*/
 @media only screen and (min-width: 600px) {
