@@ -36,7 +36,9 @@ The languages used to create this application:
 * [X] Description
 * [X] Search Bar
   * [X] Animation
-* [ ] Add fake user to see how it will look when information is pulled
+* [X] Add fake user to see how it will look when information is pulled
+* [ ] Work on Javascript functionality
+  * Capture search bar value with the hit of the search button
       
 
 
