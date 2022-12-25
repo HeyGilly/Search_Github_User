@@ -15,11 +15,11 @@ With Vanilla Javascript and CSS, you can use the search bar & get the user's ima
 </h4>
 
 <div align="center">
-<img src="" alt="View of Search" align="center">
+<img src="img/GithubSearch.gif" alt="View of Search" align="center">
 </div>
 
 ## Live View
-- <a href=""> Click Here</a>
+- <a href="github-search-username-gilly.netlify.app"> Click Here</a>
 
 ## Languages
 
@@ -37,8 +37,9 @@ The languages used to create this application:
 * [X] Search Bar
   * [X] Animation
 * [X] Add fake user to see how it will look when information is pulled
-* [ ] Work on Javascript functionality
+* [X] Work on Javascript functionality
   * Capture search bar value with the hit of the search button
+  * Create an X button that will hide the main section
       
 
 
