@@ -31,32 +31,28 @@
 
     <!-- Search Bar -->
     <div id="searchBarContainer">
-      <form>
-        <input type="text" name="text" class="search" placeholder="Search here!">
+      <div id="form">
+        <input type="text" name="text" id="searchInput" class="search" placeholder="Search here!">
         <button id="submitButton">&#128269;</button>
-      </form>
+      </div>
     </div>
 
-    <main>
+
+    <main id="mainSection">
       <div id="userHeader">
-        <h2>Nicholas "Gilly" Gilmore</h2>
-        <p id="userBio">U.S. Marine Veteran | Cal State LA Alumni | Full-Stack Web Development Instructor  @ Codeup</p>
+        <h2 id="userName">The Real Name</h2>
+        <p id="userBio">BIO</p>
         <div id="reachMeContainer">
           <a href="" id="anchorReachMe">
            <p> -- Reach Me -- </p>
           </a>
         </div>
-        <img src="https://avatars.githubusercontent.com/u/67667708?v=4" id="userImage">
-        <section class="followersSection">
-          <p>Followers: <span>14</span></p>
-          <p>Following: <span>45</span></p>
+        <section id="imageSection">
+          <img src="" id="userImage">
         </section>
+        <section id="followerSection" class="followersSection"></section>
       </div>
       <div id="userInformation">
-        <p><strong>Username:</strong> <span>heyGilly</span></p>
-        <p><strong>Location:</strong> <span>San Antonio</span></p>
-        <p><strong>Public Repositories:</strong> <span>14</span></p>
-        <a href="" id="gitHubAnchor"><p>Click for GitHub Profile</p></a>
       </div>
     </main>
 
