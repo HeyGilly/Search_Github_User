@@ -34,7 +34,7 @@ function getInformation(user) {
     // Reach Me Section
     let reachMeContainer = `
     <div>
-      <a href="${user.blog}" >
+      <a href="${user.blog}"  id="anchorReachMe">
        <p> -- Reach Me -- </p>
       </a>
     </div>
@@ -67,4 +67,7 @@ function getInformation(user) {
     // unHide the main Section
     const showMainSection = document.getElementById("mainSection");
     showMainSection.style.display = "block";
+
+    const xButton = document.getElementById("xMarkSpot");
+    xButton.addEventListener("click", () => mainSection.style.display = "none");
 }

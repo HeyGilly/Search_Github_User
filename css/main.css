@@ -86,7 +86,6 @@ h1{
     box-shadow: 0px 2px 10px black;
 }
 
-
 /*Main Section*/
 main{
     margin: 2em 25px;
@@ -95,12 +94,35 @@ main{
     box-shadow: 0 10px 10px black;
     padding: 2em 0;
 }
-#userHeader{
+
+/*X mark the spot section*/
+#xMarkSpotSection{
+    display: flex;
+    justify-content: end;
+    margin: -20px 15px 0 0;
+    padding-bottom: 24px;
 }
+#xMarkSpotSection > section{
+    background-color: whitesmoke;
+    border-radius: 60px;
+    padding: .2em .5em;
+    transition: transform 1s;
+}
+#xMarkSpotSection > section:hover{
+    transform: scale(1.2);
+    box-shadow: 0 2px 8px black;
+}
+
+#xMarkSpot{
+    font-size: 14px;
+    font-weight: 800;
+}
+
 h2{
     text-align: center;
     padding-bottom: 6px;
 }
+
 #userBio{
     text-align: center;
     width: 80%;
@@ -144,6 +166,14 @@ h2{
 #gitHubAnchor{
     text-decoration: none;
     color: whitesmoke;
+}
+
+#gitHubAnchor > p{
+    transition: transform 1s;
+}
+
+#gitHubAnchor > p:hover{
+    transform: scale(1.2);
 }
 
 /*When the screen is larger than 600px*/
