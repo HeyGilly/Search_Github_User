@@ -19,7 +19,7 @@ With Vanilla Javascript and CSS, you can use the search bar & get the user's ima
 </div>
 
 ## Live View
-- <a href="github-search-username-gilly.netlify.app"> Click Here</a>
+- <a href="https://github-search-username-gilly.netlify.app/"> Click Here</a>
 
 ## Languages
 
